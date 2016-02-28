@@ -76,8 +76,7 @@ for (t in 1:length(npasses) ){
 
 plot(npasses, usertime, xlab = "npasses", ylab = "Time used")
 lines(npasses, usertime, lty = 3, col = "red", lwd = 3)
-which.max(usertime)
-npasses[5]
+
 
 
 
