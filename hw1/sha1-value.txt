@@ -26,7 +26,10 @@ git cat-file commit 8b3c84bf430...
 
 #result:(choose the parent sha-1 hash)
 #parent 6a0c1e0e82...
+#tree 53b13d...
 
+#other way to check file sha-1
+git cat-file -p 53b13d #tree's sha-1
 
 
 
