@@ -1,2 +1,13 @@
-sha-1 for code: 553f510ac14788b6be49f989fc56e489b815feed
-sha-1 for plot: ad43560da6a7023e3ccc43b0ed515f5e85226318
+##################################################################
+#Question 1-5
+
+git ls-files -s orie6125-code.R
+git ls-files -s sha1-value.txt
+git ls-files -s time_npass.png
+#sha-1 for code (blob): 06650330a720ab64...
+#sha-1 for sha1-value (blob): 115cfa3ec23de3d7...
+#sha-1 for plot (blob): a55b85b38170060a...
+
+###################################################################
+#Question 1-6
+
