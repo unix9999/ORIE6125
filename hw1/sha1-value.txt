@@ -1,6 +1,6 @@
 ##################################################################
 #Question 1-5
-
+#get sha-1 value for the files
 git ls-files -s orie6125-code.R
 git ls-files -s sha1-value.txt
 git ls-files -s time_npass.png
@@ -8,6 +8,36 @@ git ls-files -s time_npass.png
 #sha-1 for sha1-value (blob): 115cfa3ec23de3d7...
 #sha-1 for plot (blob): a55b85b38170060a...
 
+
+
 ###################################################################
 #Question 1-6
+#check sha-1 hash for current commit: 
+
+cd C:\Users\wg97\Downloads\ORIE6125\.git\logs\refs\heads
+cat master
+
+#sha-1 value for last committ: 8b3c84bf430... 
+
+
+
+#check sha-1 hash for parent:
+git cat-file commit 8b3c84bf430...
+
+#result:(choose the parent sha-1 hash)
+#parent 6a0c1e0e82...
+
+
+
+
+####################################################################
+#Question 1-7
+#I would share the SHA-1 value for my last commit, since it will reconstruct other sha-1 value.
+
+
+####################################################################
+#Question 1-8
+#
+
+
 
